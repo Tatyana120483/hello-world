@@ -12,3 +12,14 @@ min = nums[i];
 return min;
 }
 console.log(minNum(array));
+
+
+for(let i = 1000; i >=0; i = i - 5){
+console.log(i)
+}
+
+let i = 1000;
+while(i > 0){
+i = i - 5;
+console.log(i);
+}
