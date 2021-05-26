@@ -24,3 +24,16 @@ i = i - 5;
 console.log(i);
 }
 
+let arr1 = ["Kate", "Bob", "Jaden", "Max", "Angelina"] 
+
+function numberNames(arr,length){
+const newArr = [];
+for(let i = 0; i < arr.length; i++){
+if(arr[i].length <= length) newArr.push(arr[i])
+}
+return newArr;
+}
+console.log(numberNames(arr1, 4));
+
+
+
