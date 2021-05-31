@@ -29,7 +29,7 @@ console.log(i);
 let arr1 = ["Kate", "Bob", "Jaden", "Max", "Angelina"] // Слова не более 4 букв
 
 function numberNames(arr,length){
-const newArr = [];
+let newArr = [];
 for(let i = 0; i < arr.length; i++){
 if(arr[i].length <= length) newArr.push(arr[i])
 }
